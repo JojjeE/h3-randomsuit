@@ -2,18 +2,32 @@
 	"tempHash": "00097AA87B144150",
 	"tbluHash": "00E738E7CF7A35E1",
 	"patch": [
-		{ "SubEntityOperation": ["e841aa25af6219ed", { "SetFactory": "00CFDFCA0B364A03" }] },
-		{ "SubEntityOperation": ["e841aa25af6219ed", { "SetBlueprint": "006FA7C952B36196" }] },
 		{
 			"SubEntityOperation": [
-				"342341822acc1080",
-				{ "SetPropertyValue": { "property_name": "m_eSoundFootwearType", "value": "EFWT_BOOTS" } }
+				"e841aa25af6219ed",
+				{
+					"SetFactory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_random_suit.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e841aa25af6219ed",
+				{
+					"SetBlueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_random_suit.entitytemplate].pc_entityblueprint"
+				}
 			]
 		},
 		{
 			"SubEntityOperation": [
 				"342341822acc1080",
-				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_47COLORADO" } }
+				{ "SetPropertyValue": { "property_name": "m_eSoundFootwearType", "value": "EFWT_LEATHER" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"342341822acc1080",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_47Suit" } }
 			]
 		}
 	],

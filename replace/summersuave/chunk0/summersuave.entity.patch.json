@@ -5,17 +5,31 @@
 		{
 			"SubEntityOperation": [
 				"50a9b6157707e98a",
-				{ "SetPropertyValue": { "property_name": "m_eSoundFootwearType", "value": "EFWT_BOOTS" } }
+				{ "SetPropertyValue": { "property_name": "m_eSoundFootwearType", "value": "EFWT_LEATHER" } }
 			]
 		},
 		{
 			"SubEntityOperation": [
 				"50a9b6157707e98a",
-				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_47COLORADO" } }
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_47Suit" } }
 			]
 		},
-		{ "SubEntityOperation": ["2e6a3c3f7fb61a99", { "SetFactory": "00CFDFCA0B364A03" }] },
-		{ "SubEntityOperation": ["2e6a3c3f7fb61a99", { "SetBlueprint": "006FA7C952B36196" }] }
+		{
+			"SubEntityOperation": [
+				"2e6a3c3f7fb61a99",
+				{
+					"SetFactory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_random_suit.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2e6a3c3f7fb61a99",
+				{
+					"SetBlueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_random_suit.entitytemplate].pc_entityblueprint"
+				}
+			]
+		}
 	],
 	"patchVersion": 6
 }

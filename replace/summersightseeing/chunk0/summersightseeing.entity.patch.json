@@ -2,12 +2,26 @@
 	"tempHash": "00097AA87B144150",
 	"tbluHash": "00E738E7CF7A35E1",
 	"patch": [
-		{ "SubEntityOperation": ["c036c5edb0b462a5", { "SetFactory": "00CFDFCA0B364A03" }] },
-		{ "SubEntityOperation": ["c036c5edb0b462a5", { "SetBlueprint": "006FA7C952B36196" }] },
+		{
+			"SubEntityOperation": [
+				"c036c5edb0b462a5",
+				{
+					"SetFactory": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_random_suit.entitytemplate].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c036c5edb0b462a5",
+				{
+					"SetBlueprint": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_random_suit.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
 		{
 			"SubEntityOperation": [
 				"9e7359b3085a49ca",
-				{ "SetPropertyValue": { "property_name": "m_eSoundFootwearType", "value": "EFWT_BOOTS" } }
+				{ "SetPropertyValue": { "property_name": "m_eSoundFootwearType", "value": "EFWT_LEATHER" } }
 			]
 		}
 	],
