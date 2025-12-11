@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_RANDOM_SUIT": {
+		"Id": "TOKEN_OUTFIT_HERO_RANDOM_SUIT",
+		"Guid": "6b7d0a20-9366-492b-8c52-fb12c106ec73",
+		"Type": "disguise",
+		"Subtype": "classic",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "643a0b16-555c-4aea-8dae-e415e34a74a4",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

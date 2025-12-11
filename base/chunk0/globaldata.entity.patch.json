@@ -1,0 +1,23 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"AddPropertyOverrideConnection": {
+				"entity": {
+					"ref": "cafe11ddfb62c146",
+					"externalScene": "[assembly:/_pro/scenes/bricks/randomsuit.brick].pc_entitytype"
+				},
+				"propertyName": "parent",
+				"propertyOverride": {
+					"type": "SEntityTemplateReference",
+					"value": "afe6aaad3dfe3924"
+				}
+			}
+		},
+		{
+			"AddExternalScene": "[assembly:/_pro/scenes/bricks/randomsuit.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}

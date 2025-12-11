@@ -1,4 +1,13 @@
 {
-	"$schema": "https://raw.githubusercontent.com/atampy25/quickentity-editor-next/main/src/lib/project-schema.json",
-	"customPaths": []
+	"customPaths": [
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_random_suit.entitytemplate].pc_entitytype",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_random_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_random_suit_heroa_v0.entitytemplate].pc_entitytemplate",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_random_suit_heroa_v0.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_random_suit/geometry/agent47_random_suit.wl2?/jacket.weightedprim](bodypart).pc_weightedprim",
+		"[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_random_suit/geometry/agent47_random_suit.wl2?/pants.weightedprim](bodypart).pc_weightedprim",
+		"[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_random_suit/geometry/agent47_random_suit.wl2?/shirt.weightedprim](bodypart).pc_weightedprim",
+		"[assembly:/_pro/scenes/bricks/randomsuit.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/bricks/randomsuit.brick].pc_entityblueprint"
+	]
 }

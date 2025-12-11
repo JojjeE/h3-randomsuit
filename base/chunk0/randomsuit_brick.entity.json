@@ -1,0 +1,946 @@
+{
+	"tempHash": "00A65B77517FB0FB",
+	"tbluHash": "00286CF2673D56DF",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafe11ddfb62c146": {
+			"parent": "fffffffffffffffe",
+			"name": "Random Suit Stuff",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe25c75ba92d37": {
+			"parent": "cafeaae2f75539dd",
+			"name": "Jacket",
+			"factory": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l02/random_jacket/materials/male_reg_suit_jacket_01_closed_anisotropic.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l02/random_jacket/materials/male_reg_suit_jacket_01_closed_anisotropic.mi].pc_entityblueprint",
+			"properties": {
+				"Active": { "type": "bool", "value": true },
+				"Override": { "type": "bool", "value": true },
+				"Global": { "type": "bool", "value": true },
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				}
+			}
+		},
+		"cafec88aa65bc299": {
+			"parent": "cafeaae2f75539dd",
+			"name": "Pants",
+			"factory": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/random_pants/materials/male_reg_suit_pants_anisotropic.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/random_pants/materials/male_reg_suit_pants_anisotropic.mi].pc_entityblueprint",
+			"properties": {
+				"Active": { "type": "bool", "value": true },
+				"Override": { "type": "bool", "value": true },
+				"Global": { "type": "bool", "value": true },
+				"ConstantColorRGB_02_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_05_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_04_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				}
+			}
+		},
+		"cafe3bc85107f911": {
+			"parent": "cafeaae2f75539dd",
+			"name": "Shirt_Main",
+			"factory": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/random_shirt/materials/male_reg_dress_shirt_buttoned_up_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/random_shirt/materials/male_reg_dress_shirt_buttoned_up_01.mi].pc_entityblueprint",
+			"properties": {
+				"Active": { "type": "bool", "value": true },
+				"Override": { "type": "bool", "value": true },
+				"Global": { "type": "bool", "value": true },
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_14_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				}
+			}
+		},
+		"cafe00dbd7bfe0cb": {
+			"parent": "cafeaae2f75539dd",
+			"name": "Shirt_Sleeve",
+			"factory": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/random_shirt/materials/male_reg_dress_shirt_long_sleeve_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/random_shirt/materials/male_reg_dress_shirt_long_sleeve_01.mi].pc_entityblueprint",
+			"properties": {
+				"Active": { "type": "bool", "value": true },
+				"Override": { "type": "bool", "value": true },
+				"Global": { "type": "bool", "value": true },
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 1.0
+				},
+				"ConstantVector1D_06_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_14_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				}
+			}
+		},
+		"cafe2f06f0bf6805": {
+			"parent": "cafeaae2f75539dd",
+			"name": "Shirt_Buttons",
+			"factory": "[assembly:/_pro/characters/assets/_apparel/accessories/random_shirt/buttons/materials/buttons_03_shirt.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_apparel/accessories/random_shirt/buttons/materials/buttons_03_shirt.mi].pc_entityblueprint",
+			"properties": {
+				"Active": { "type": "bool", "value": true },
+				"Override": { "type": "bool", "value": true },
+				"Global": { "type": "bool", "value": true },
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				}
+			}
+		},
+		"cafe9ba559c97601": {
+			"parent": "cafeaae2f75539dd",
+			"name": "Jacket_Buttons",
+			"factory": "[assembly:/_pro/characters/assets/_apparel/accessories/random_jacket/buttons/materials/buttons_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_apparel/accessories/random_jacket/buttons/materials/buttons_01.mi].pc_entityblueprint",
+			"properties": {
+				"Active": { "type": "bool", "value": true },
+				"Override": { "type": "bool", "value": true },
+				"Global": { "type": "bool", "value": true },
+				"Diffuse_Color_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				}
+			}
+		},
+		"cafe0e2994ce2e24": {
+			"parent": "cafe11ddfb62c146",
+			"name": "Randomizer_Pants",
+			"factory": "[modules:/zrandomselector.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselector.class].pc_entityblueprint",
+			"properties": {
+				"m_Choices": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe9144e65d5927",
+						"cafea4f24fe688ec",
+						"cafe792bc0af8c95",
+						"cafe7cc9481eef01",
+						"cafecbff5a79bff0"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafeaae2f75539dd": {
+			"parent": "cafe11ddfb62c146",
+			"name": "Mats",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe9144e65d5927": {
+			"parent": "cafe0e2994ce2e24",
+			"name": "Pants_Black",
+			"factory": "[modules:/zrandomselectorchoice.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselectorchoice.class].pc_entityblueprint",
+			"events": {
+				"OnPicked": {
+					"Get": ["cafea5743a93f911", "cafe8d92817acafd"]
+				}
+			}
+		},
+		"cafe7cc9481eef01": {
+			"parent": "cafe0e2994ce2e24",
+			"name": "Pants_Navy",
+			"factory": "[modules:/zrandomselectorchoice.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselectorchoice.class].pc_entityblueprint",
+			"events": {
+				"OnPicked": {
+					"Get": ["cafe6644cfe7cefc", "cafec177d23cc1d9"]
+				}
+			}
+		},
+		"cafea4f24fe688ec": {
+			"parent": "cafe0e2994ce2e24",
+			"name": "Pants_Brown",
+			"factory": "[modules:/zrandomselectorchoice.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselectorchoice.class].pc_entityblueprint",
+			"events": {
+				"OnPicked": {
+					"Get": ["cafe85289c7db802", "cafec7588b98a05e"]
+				}
+			}
+		},
+		"cafe792bc0af8c95": {
+			"parent": "cafe0e2994ce2e24",
+			"name": "Pants_Gray",
+			"factory": "[modules:/zrandomselectorchoice.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselectorchoice.class].pc_entityblueprint",
+			"events": {
+				"OnPicked": {
+					"Get": ["cafe60da73c8afb6", "cafefbb9697e5b73"]
+				}
+			}
+		},
+		"cafecbff5a79bff0": {
+			"parent": "cafe0e2994ce2e24",
+			"name": "Pants_Tan",
+			"factory": "[modules:/zrandomselectorchoice.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselectorchoice.class].pc_entityblueprint",
+			"events": {
+				"OnPicked": {
+					"Get": ["cafebe9f738a2748", "cafe3856b4517f8d"]
+				}
+			}
+		},
+		"cafe368beb4637c8": {
+			"parent": "cafe11ddfb62c146",
+			"name": "Randomizer_Jacket",
+			"factory": "[modules:/zrandomselector.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselector.class].pc_entityblueprint",
+			"properties": {
+				"m_Choices": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe9249625b9939",
+						"cafea9cca6b7fe80",
+						"cafe00271980e13a",
+						"cafe3650af7a23a8",
+						"cafe447a10453b79"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafe9249625b9939": {
+			"parent": "cafe368beb4637c8",
+			"name": "Jacket_Black",
+			"factory": "[modules:/zrandomselectorchoice.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselectorchoice.class].pc_entityblueprint",
+			"events": {
+				"OnPicked": {
+					"Get": ["cafee77ccb9277c3", "cafeaf26c869dd4f", "cafe41f7de6ddf8b"]
+				}
+			}
+		},
+		"cafe3650af7a23a8": {
+			"parent": "cafe368beb4637c8",
+			"name": "Jacket_Navy",
+			"factory": "[modules:/zrandomselectorchoice.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselectorchoice.class].pc_entityblueprint",
+			"events": {
+				"OnPicked": {
+					"Get": ["cafe56a5b841774b", "cafec0b6303aeb10", "cafe236014ea5d8d"]
+				}
+			}
+		},
+		"cafea9cca6b7fe80": {
+			"parent": "cafe368beb4637c8",
+			"name": "Jacket_Brown",
+			"factory": "[modules:/zrandomselectorchoice.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselectorchoice.class].pc_entityblueprint",
+			"events": {
+				"OnPicked": {
+					"Get": ["cafe5e4f7a3f0404", "cafe986c21854358", "cafe38d86fb387c4"]
+				}
+			}
+		},
+		"cafe00271980e13a": {
+			"parent": "cafe368beb4637c8",
+			"name": "Jacket_Gray",
+			"factory": "[modules:/zrandomselectorchoice.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselectorchoice.class].pc_entityblueprint",
+			"events": {
+				"OnPicked": {
+					"Get": ["cafe69ccc7762dad", "cafe3ed3274a1945", "cafe366289e6a735"]
+				}
+			}
+		},
+		"cafe447a10453b79": {
+			"parent": "cafe368beb4637c8",
+			"name": "Jacket_Tan",
+			"factory": "[modules:/zrandomselectorchoice.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselectorchoice.class].pc_entityblueprint",
+			"events": {
+				"OnPicked": {
+					"Get": ["cafe7e38e891ee2c", "cafe406f23812361", "cafe9ce2639fcd28"]
+				}
+			}
+		},
+		"cafebffbce49a002": {
+			"parent": "cafe11ddfb62c146",
+			"name": "Randomizer_Shirt",
+			"factory": "[modules:/zrandomselector.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselector.class].pc_entityblueprint",
+			"properties": {
+				"m_Choices": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe60d90e66d142", "cafe93d2910c7fbf", "cafe73ae4477924f"],
+					"postInit": true
+				}
+			}
+		},
+		"cafe60d90e66d142": {
+			"parent": "cafebffbce49a002",
+			"name": "Shirt_White",
+			"factory": "[modules:/zrandomselectorchoice.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselectorchoice.class].pc_entityblueprint",
+			"events": { "OnPicked": { "Get": ["cafea0d0e80f2451"] } }
+		},
+		"cafe93d2910c7fbf": {
+			"parent": "cafebffbce49a002",
+			"name": "Shirt_Cream",
+			"factory": "[modules:/zrandomselectorchoice.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselectorchoice.class].pc_entityblueprint",
+			"events": { "OnPicked": { "Get": ["cafe8f52a3e6a9b2"] } }
+		},
+		"cafe73ae4477924f": {
+			"parent": "cafebffbce49a002",
+			"name": "Shirt_Blue",
+			"factory": "[modules:/zrandomselectorchoice.class].pc_entitytype",
+			"blueprint": "[modules:/zrandomselectorchoice.class].pc_entityblueprint",
+			"events": { "OnPicked": { "Get": ["cafe854dbdd787ec"] } }
+		},
+		"cafe15ddbcf2a77a": {
+			"parent": "cafe368beb4637c8",
+			"name": "Jacket_ValueColorRGB",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnValue": {
+					"ConstantColorRGB_02_Value": ["cafe25c75ba92d37"]
+				}
+			}
+		},
+		"cafe48c8232dcda0": {
+			"parent": "cafe368beb4637c8",
+			"name": "Jacket_ValueColorRGB_Btns",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnValue": {
+					"Diffuse_Color_01_Value": ["cafe9ba559c97601"]
+				}
+			}
+		},
+		"cafeccdffca995c6": {
+			"parent": "cafe0e2994ce2e24",
+			"name": "Pants_ValueColorRGB",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnValue": {
+					"ConstantColorRGB_02_Value": ["cafec88aa65bc299"]
+				}
+			}
+		},
+		"cafe30a48cd21e3d": {
+			"parent": "cafebffbce49a002",
+			"name": "Shirt_ValueColorRGB",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnValue": {
+					"Diffuse_Color_01_Value": ["cafe3bc85107f911", "cafe2f06f0bf6805", "cafe00dbd7bfe0cb"]
+				}
+			}
+		},
+		"cafe871a9b39c392": {
+			"parent": "cafe11ddfb62c146",
+			"name": "GAMEPLAY GO NYOOM",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_GameplayStart"
+				}
+			},
+			"events": {
+				"EventOccurred": {
+					"Pick": ["cafe368beb4637c8", "cafe0e2994ce2e24", "cafebffbce49a002"]
+				}
+			}
+		},
+		"cafeaf26c869dd4f": {
+			"parent": "cafe9249625b9939",
+			"name": "Jacket_Black_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#303236" }
+			},
+			"events": { "Value": { "SetValue": ["cafe15ddbcf2a77a"] } }
+		},
+		"cafee77ccb9277c3": {
+			"parent": "cafe9249625b9939",
+			"name": "Jacket_Black_Btn_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#434343" }
+			},
+			"events": { "Value": { "SetValue": ["cafe48c8232dcda0"] } }
+		},
+		"cafe5e4f7a3f0404": {
+			"parent": "cafea9cca6b7fe80",
+			"name": "Jacket_Brown_Btn_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#B27343" }
+			},
+			"events": { "Value": { "SetValue": ["cafe48c8232dcda0"] } }
+		},
+		"cafe986c21854358": {
+			"parent": "cafea9cca6b7fe80",
+			"name": "Jacket_Brown_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#B5735D" }
+			},
+			"events": { "Value": { "SetValue": ["cafe15ddbcf2a77a"] } }
+		},
+		"cafe69ccc7762dad": {
+			"parent": "cafe00271980e13a",
+			"name": "Jacket_Gray_Btn_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#D1D1D1" }
+			},
+			"events": { "Value": { "SetValue": ["cafe48c8232dcda0"] } }
+		},
+		"cafe3ed3274a1945": {
+			"parent": "cafe00271980e13a",
+			"name": "Jacket_Gray_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#E1D9D6" }
+			},
+			"events": { "Value": { "SetValue": ["cafe15ddbcf2a77a"] } }
+		},
+		"cafec0b6303aeb10": {
+			"parent": "cafe3650af7a23a8",
+			"name": "Jacket_Navy_Btn_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#3C396B" }
+			},
+			"events": { "Value": { "SetValue": ["cafe48c8232dcda0"] } }
+		},
+		"cafe56a5b841774b": {
+			"parent": "cafe3650af7a23a8",
+			"name": "Jacket_Navy_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#424A75" }
+			},
+			"events": { "Value": { "SetValue": ["cafe15ddbcf2a77a"] } }
+		},
+		"cafe7e38e891ee2c": {
+			"parent": "cafe447a10453b79",
+			"name": "Jacket_Tan_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#FFCFB4" }
+			},
+			"events": { "Value": { "SetValue": ["cafe15ddbcf2a77a"] } }
+		},
+		"cafe406f23812361": {
+			"parent": "cafe447a10453b79",
+			"name": "Jacket_Tan_Btn_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#DFBA9E" }
+			},
+			"events": { "Value": { "SetValue": ["cafe48c8232dcda0"] } }
+		},
+		"cafe854dbdd787ec": {
+			"parent": "cafe73ae4477924f",
+			"name": "Shirt_Blue_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#98B6FE" }
+			},
+			"events": { "Value": { "SetValue": ["cafe30a48cd21e3d"] } }
+		},
+		"cafe8f52a3e6a9b2": {
+			"parent": "cafe93d2910c7fbf",
+			"name": "Shirt_Cream_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#E4CEAF" }
+			},
+			"events": { "Value": { "SetValue": ["cafe30a48cd21e3d"] } }
+		},
+		"cafea0d0e80f2451": {
+			"parent": "cafe60d90e66d142",
+			"name": "Shirt_White_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#FFFFFF" }
+			},
+			"events": { "Value": { "SetValue": ["cafe30a48cd21e3d"] } }
+		},
+		"cafea5743a93f911": {
+			"parent": "cafe9144e65d5927",
+			"name": "Pants_Black_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#303236" }
+			},
+			"events": { "Value": { "SetValue": ["cafeccdffca995c6"] } }
+		},
+		"cafe85289c7db802": {
+			"parent": "cafea4f24fe688ec",
+			"name": "Pants_Brown_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#B5735D" }
+			},
+			"events": { "Value": { "SetValue": ["cafeccdffca995c6"] } }
+		},
+		"cafe60da73c8afb6": {
+			"parent": "cafe792bc0af8c95",
+			"name": "Pants_Gray_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#E1D9D6" }
+			},
+			"events": { "Value": { "SetValue": ["cafeccdffca995c6"] } }
+		},
+		"cafe6644cfe7cefc": {
+			"parent": "cafe7cc9481eef01",
+			"name": "Pants_Navy_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#424A75" }
+			},
+			"events": { "Value": { "SetValue": ["cafeccdffca995c6"] } }
+		},
+		"cafebe9f738a2748": {
+			"parent": "cafecbff5a79bff0",
+			"name": "Pants_Tan_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#FFCFB4" }
+			},
+			"events": { "Value": { "SetValue": ["cafeccdffca995c6"] } }
+		},
+		"cafec2d4af9fd3bf": {
+			"parent": "cafe11ddfb62c146",
+			"name": "SAVE RECOVERY",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_SavegameRestored"
+				}
+			},
+			"events": {
+				"EventOccurred": {
+					"Poll": [
+						"cafef22698f26476",
+						"cafedb6157f7c29a",
+						"cafe9519ee57a891",
+						"cafe4586658c8e6d",
+						"cafefef3860e65e8",
+						"cafe1da9d3379ee7"
+					]
+				}
+			}
+		},
+		"cafef22698f26476": {
+			"parent": "cafec2d4af9fd3bf",
+			"name": "Poll_Jacket",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe15ddbcf2a77a"
+				}
+			},
+			"events": {
+				"PollValue": {
+					"ConstantColorRGB_02_Value": ["cafe25c75ba92d37"]
+				}
+			}
+		},
+		"cafedb6157f7c29a": {
+			"parent": "cafec2d4af9fd3bf",
+			"name": "Poll_Jacket_Btns",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe48c8232dcda0"
+				}
+			},
+			"events": {
+				"PollValue": {
+					"Diffuse_Color_01_Value": ["cafe9ba559c97601"]
+				}
+			}
+		},
+		"cafe4586658c8e6d": {
+			"parent": "cafec2d4af9fd3bf",
+			"name": "Poll_Pants",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeccdffca995c6"
+				}
+			},
+			"events": {
+				"PollValue": {
+					"ConstantColorRGB_02_Value": ["cafec88aa65bc299"]
+				}
+			}
+		},
+		"cafe1da9d3379ee7": {
+			"parent": "cafec2d4af9fd3bf",
+			"name": "Poll_Shirt",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe30a48cd21e3d"
+				}
+			},
+			"events": {
+				"PollValue": {
+					"Diffuse_Color_01_Value": ["cafe2f06f0bf6805", "cafe3bc85107f911", "cafe00dbd7bfe0cb"]
+				}
+			}
+		},
+		"cafeecfe4381d5db": {
+			"parent": "cafe368beb4637c8",
+			"name": "Jacket_ValueColorRGB_Specular",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnValue": {
+					"ConstantColorRGB_05_Value": ["cafe25c75ba92d37"]
+				}
+			}
+		},
+		"cafe94bb49d8ebae": {
+			"parent": "cafe0e2994ce2e24",
+			"name": "Pants_ValueColorRGB_Specular",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_basic.entitytemplate].pc_entityblueprint",
+			"events": {
+				"OnValue": {
+					"ConstantColorRGB_05_Value": ["cafec88aa65bc299"]
+				}
+			}
+		},
+		"cafe9519ee57a891": {
+			"parent": "cafec2d4af9fd3bf",
+			"name": "Poll_Jacket_Specular",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeecfe4381d5db"
+				}
+			},
+			"events": {
+				"PollValue": {
+					"ConstantColorRGB_05_Value": ["cafe25c75ba92d37"]
+				}
+			}
+		},
+		"cafefef3860e65e8": {
+			"parent": "cafec2d4af9fd3bf",
+			"name": "Poll_Pants_Specular",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe94bb49d8ebae"
+				}
+			},
+			"events": {
+				"PollValue": {
+					"ConstantColorRGB_05_Value": ["cafec88aa65bc299"]
+				}
+			}
+		},
+		"cafe41f7de6ddf8b": {
+			"parent": "cafe9249625b9939",
+			"name": "Jacket_Black_Specular_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#8486A3" }
+			},
+			"events": { "Value": { "SetValue": ["cafeecfe4381d5db"] } }
+		},
+		"cafe38d86fb387c4": {
+			"parent": "cafea9cca6b7fe80",
+			"name": "Jacket_Brown_Specular_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#DD9778" }
+			},
+			"events": { "Value": { "SetValue": ["cafeecfe4381d5db"] } }
+		},
+		"cafe366289e6a735": {
+			"parent": "cafe00271980e13a",
+			"name": "Jacket_Gray_Specular_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#C7C8D7" }
+			},
+			"events": { "Value": { "SetValue": ["cafeecfe4381d5db"] } }
+		},
+		"cafe236014ea5d8d": {
+			"parent": "cafe3650af7a23a8",
+			"name": "Jacket_Navy_Specular_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#8186E4" }
+			},
+			"events": { "Value": { "SetValue": ["cafeecfe4381d5db"] } }
+		},
+		"cafe9ce2639fcd28": {
+			"parent": "cafe447a10453b79",
+			"name": "Jacket_Tan_Specular_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#E3D0C3" }
+			},
+			"events": { "Value": { "SetValue": ["cafeecfe4381d5db"] } }
+		},
+		"cafe8d92817acafd": {
+			"parent": "cafe9144e65d5927",
+			"name": "Pants_Black_Specular_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#8486A3" }
+			},
+			"events": { "Value": { "SetValue": ["cafe94bb49d8ebae"] } }
+		},
+		"cafec7588b98a05e": {
+			"parent": "cafea4f24fe688ec",
+			"name": "Pants_Brown_Specular_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#DD9778" }
+			},
+			"events": { "Value": { "SetValue": ["cafe94bb49d8ebae"] } }
+		},
+		"cafefbb9697e5b73": {
+			"parent": "cafe792bc0af8c95",
+			"name": "Pants_Gray_Specular_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#C7C8D7" }
+			},
+			"events": { "Value": { "SetValue": ["cafe94bb49d8ebae"] } }
+		},
+		"cafec177d23cc1d9": {
+			"parent": "cafe7cc9481eef01",
+			"name": "Pants_Navy_Specular_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#8186E4" }
+			},
+			"events": { "Value": { "SetValue": ["cafe94bb49d8ebae"] } }
+		},
+		"cafe3856b4517f8d": {
+			"parent": "cafecbff5a79bff0",
+			"name": "Pants_Tan_Specular_Getter",
+			"factory": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuecolorrgb.template?/valuecolorrgb_get.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_Value": { "type": "SColorRGB", "value": "#E3D0C3" }
+			},
+			"events": { "Value": { "SetValue": ["cafe94bb49d8ebae"] } }
+		},
+		"cafe195847242ce4": {
+			"parent": "cafeaae2f75539dd",
+			"name": "Wetlogic",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe720b0f2effdd": {
+			"parent": "cafe195847242ce4",
+			"name": "FX_Hitman_Wet_Logic_Character",
+			"factory": "[assembly:/_pro/effects/templates/water/fx_water_hitman_wet_logic.template?/fx_hitman_wet_logic_character.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/water/fx_water_hitman_wet_logic.template?/fx_hitman_wet_logic_character.entitytemplate].pc_entityblueprint",
+			"events": {
+				"HitmanWetness": {
+					"T": ["cafec72b8baf10c6", "cafe79f5cf74e3e2", "cafed583021077f7", "cafe3db99a08adc3"]
+				}
+			}
+		},
+		"cafec72b8baf10c6": {
+			"parent": "cafe195847242ce4",
+			"name": "Lerp jacket pants",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_A": { "type": "float32", "value": 0.5 },
+				"m_B": { "type": "float32", "value": 0.25 },
+				"m_fT": { "type": "float32", "value": 0.0 }
+			},
+			"events": {
+				"Lerp": {
+					"ConstantVector1D_01_Value": ["cafe25c75ba92d37", "cafec88aa65bc299"]
+				}
+			}
+		},
+		"cafe79f5cf74e3e2": {
+			"parent": "cafe195847242ce4",
+			"name": "Lerp shirt",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_A": { "type": "float32", "value": 1.0 },
+				"m_B": { "type": "float32", "value": 0.5 },
+				"m_fT": { "type": "float32", "value": 0.0 }
+			},
+			"events": {
+				"Lerp": {
+					"ConstantVector1D_01_Value": ["cafe3bc85107f911", "cafe00dbd7bfe0cb"]
+				}
+			}
+		},
+		"cafed583021077f7": {
+			"parent": "cafe195847242ce4",
+			"name": "Lerp bump",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_fT": { "type": "float32", "value": 0 },
+				"m_A": { "type": "float32", "value": 1 },
+				"m_B": { "type": "float32", "value": 2 }
+			},
+			"events": {
+				"Lerp": {
+					"ConstantVector1D_06_Value": [
+						"cafe25c75ba92d37",
+						"cafec88aa65bc299",
+						"cafe3bc85107f911",
+						"cafe00dbd7bfe0cb"
+					]
+				}
+			}
+		},
+		"cafe3db99a08adc3": {
+			"parent": "cafe195847242ce4",
+			"name": "Lerp spec",
+			"factory": "[modules:/zmathlerp.class].pc_entitytype",
+			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+			"properties": {
+				"m_B": { "type": "float32", "value": 0.4000000059604645 },
+				"m_fT": { "type": "float32", "value": 0 }
+			},
+			"events": {
+				"Lerp": {
+					"ConstantVector1D_04_Value": ["cafe25c75ba92d37", "cafec88aa65bc299"],
+					"ConstantVector1D_14_Value": ["cafe3bc85107f911", "cafe00dbd7bfe0cb"]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

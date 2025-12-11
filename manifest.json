@@ -1,9 +1,506 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+	"id": "Jojje.RandomSuit",
+	"name": "The Random Suit",
+	"description": "Can't decide what colors to wear? No need to choose anymore!",
+	"authors": ["Jojje"],
+	"frameworkVersion": "2.33.33",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"contentFolders": ["base"],
+	"options": [
+		{
+			"group": "Replace",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install the suit to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"enabledByDefault": true,
+			"contentFolders": ["replace/addon"],
+			"blobsFolders": ["blobs/addon"],
+			"localisedLines": {
+				"00D376C07658C986": "UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_DESC",
+				"00E02F01F1BDE917": "UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_DESC": "If you can't decide what colors to wear, why not let the computer decide?",
+					"UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_NAME": "The Random Suit"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_DESC": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?",
+					"UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_NAME": "Le Costume Aléatoire"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_DESC": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?",
+					"UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_NAME": "Il Vestito Casuale"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_DESC": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?",
+					"UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_NAME": "Der Zufallsanzug"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_DESC": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?",
+					"UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_NAME": "El Traje Aleatorio"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_DESC": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?",
+					"UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_NAME": "Случайный костюм"
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/bangkok"],
+			"blobsFolders": ["blobs/bangkok"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "If you can't decide what colors to wear, why not let the computer decide?",
+						"4086875141": "The Random Suit"
+					},
+					"french": {
+						"2741280242": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?",
+						"4086875141": "Le Costume Aléatoire"
+					},
+					"italian": {
+						"2741280242": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?",
+						"4086875141": "Il Vestito Casuale"
+					},
+					"german": {
+						"2741280242": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?",
+						"4086875141": "Der Zufallsanzug"
+					},
+					"spanish": {
+						"2741280242": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?",
+						"4086875141": "El Traje Aleatorio"
+					},
+					"russian": {
+						"2741280242": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?",
+						"4086875141": "Случайный костюм"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/sapienza"],
+			"blobsFolders": ["blobs/sapienza"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "If you can't decide what colors to wear, why not let the computer decide?",
+						"3648979387": "The Random Suit"
+					},
+					"french": {
+						"3346035357": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?",
+						"3648979387": "Le Costume Aléatoire"
+					},
+					"italian": {
+						"3346035357": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?",
+						"3648979387": "Il Vestito Casuale"
+					},
+					"german": {
+						"3346035357": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?",
+						"3648979387": "Der Zufallsanzug"
+					},
+					"spanish": {
+						"3346035357": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?",
+						"3648979387": "El Traje Aleatorio"
+					},
+					"russian": {
+						"3346035357": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?",
+						"3648979387": "Случайный костюм"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/miami"],
+			"blobsFolders": ["blobs/miami"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "The Random Suit",
+						"3175901226": "If you can't decide what colors to wear, why not let the computer decide?"
+					},
+					"french": {
+						"1774659088": "Le Costume Aléatoire",
+						"3175901226": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?"
+					},
+					"italian": {
+						"1774659088": "Il Vestito Casuale",
+						"3175901226": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?"
+					},
+					"german": {
+						"1774659088": "Der Zufallsanzug",
+						"3175901226": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?"
+					},
+					"spanish": {
+						"1774659088": "El Traje Aleatorio",
+						"3175901226": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?"
+					},
+					"russian": {
+						"1774659088": "Случайный костюм",
+						"3175901226": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/sanfortuna"],
+			"blobsFolders": ["blobs/sanfortuna"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "The Random Suit",
+						"3533044117": "If you can't decide what colors to wear, why not let the computer decide?"
+					},
+					"french": {
+						"2978719530": "Le Costume Aléatoire",
+						"3533044117": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?"
+					},
+					"italian": {
+						"2978719530": "Il Vestito Casuale",
+						"3533044117": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?"
+					},
+					"german": {
+						"2978719530": "Der Zufallsanzug",
+						"3533044117": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?"
+					},
+					"spanish": {
+						"2978719530": "El Traje Aleatorio",
+						"3533044117": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?"
+					},
+					"russian": {
+						"2978719530": "Случайный костюм",
+						"3533044117": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": ["replace/summersuave"],
+			"blobsFolders": ["blobs/summersuave"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "The Random Suit",
+						"2101382595": "If you can't decide what colors to wear, why not let the computer decide?"
+					},
+					"french": {
+						"134957393": "Le Costume Aléatoire",
+						"2101382595": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?"
+					},
+					"italian": {
+						"134957393": "Il Vestito Casuale",
+						"2101382595": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?"
+					},
+					"german": {
+						"134957393": "Der Zufallsanzug",
+						"2101382595": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?"
+					},
+					"spanish": {
+						"134957393": "El Traje Aleatorio",
+						"2101382595": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?"
+					},
+					"russian": {
+						"134957393": "Случайный костюм",
+						"2101382595": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": ["replace/summersightseeing"],
+			"blobsFolders": ["blobs/summersightseeing"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "If you can't decide what colors to wear, why not let the computer decide?",
+						"2814457931": "The Random Suit"
+					},
+					"french": {
+						"2627471231": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?",
+						"2814457931": "Le Costume Aléatoire"
+					},
+					"italian": {
+						"2627471231": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?",
+						"2814457931": "Il Vestito Casuale"
+					},
+					"german": {
+						"2627471231": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?",
+						"2814457931": "Der Zufallsanzug"
+					},
+					"spanish": {
+						"2627471231": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?",
+						"2814457931": "El Traje Aleatorio"
+					},
+					"russian": {
+						"2627471231": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?",
+						"2814457931": "Случайный костюм"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": ["replace/casualundercover"],
+			"blobsFolders": ["blobs/casualundercover"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "The Random Suit",
+						"3635577953": "If you can't decide what colors to wear, why not let the computer decide?"
+					},
+					"french": {
+						"2052724919": "Le Costume Aléatoire",
+						"3635577953": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?"
+					},
+					"italian": {
+						"2052724919": "Il Vestito Casuale",
+						"3635577953": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?"
+					},
+					"german": {
+						"2052724919": "Der Zufallsanzug",
+						"3635577953": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?"
+					},
+					"spanish": {
+						"2052724919": "El Traje Aleatorio",
+						"3635577953": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?"
+					},
+					"russian": {
+						"2052724919": "Случайный костюм",
+						"3635577953": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": ["replace/midnightblack"],
+			"blobsFolders": ["blobs/midnightblack"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "If you can't decide what colors to wear, why not let the computer decide?",
+						"2762453674": "The Random Suit"
+					},
+					"french": {
+						"972885031": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?",
+						"2762453674": "Le Costume Aléatoire"
+					},
+					"italian": {
+						"972885031": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?",
+						"2762453674": "Il Vestito Casuale"
+					},
+					"german": {
+						"972885031": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?",
+						"2762453674": "Der Zufallsanzug"
+					},
+					"spanish": {
+						"972885031": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?",
+						"2762453674": "El Traje Aleatorio"
+					},
+					"russian": {
+						"972885031": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?",
+						"2762453674": "Случайный костюм"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/marrakesh"],
+			"blobsFolders": ["blobs/marrakesh"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "The Random Suit",
+						"4241939803": "If you can't decide what colors to wear, why not let the computer decide?"
+					},
+					"french": {
+						"1490534793": "Le Costume Aléatoire",
+						"4241939803": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?"
+					},
+					"italian": {
+						"1490534793": "Il Vestito Casuale",
+						"4241939803": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?"
+					},
+					"german": {
+						"1490534793": "Der Zufallsanzug",
+						"4241939803": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?"
+					},
+					"spanish": {
+						"1490534793": "El Traje Aleatorio",
+						"4241939803": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?"
+					},
+					"russian": {
+						"1490534793": "Случайный костюм",
+						"4241939803": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": ["replace/tropicalsuit"],
+			"blobsFolders": ["blobs/tropicalsuit"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "If you can't decide what colors to wear, why not let the computer decide?",
+						"2347383834": "The Random Suit"
+					},
+					"french": {
+						"2053833950": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?",
+						"2347383834": "Le Costume Aléatoire"
+					},
+					"italian": {
+						"2053833950": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?",
+						"2347383834": "Il Vestito Casuale"
+					},
+					"german": {
+						"2053833950": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?",
+						"2347383834": "Der Zufallsanzug"
+					},
+					"spanish": {
+						"2053833950": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?",
+						"2347383834": "El Traje Aleatorio"
+					},
+					"russian": {
+						"2053833950": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?",
+						"2347383834": "Случайный костюм"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": ["replace/smartcasual"],
+			"blobsFolders": ["blobs/smartcasual"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "The Random Suit",
+						"678625422": "If you can't decide what colors to wear, why not let the computer decide?"
+					},
+					"french": {
+						"252086724": "Le Costume Aléatoire",
+						"678625422": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?"
+					},
+					"italian": {
+						"252086724": "Il Vestito Casuale",
+						"678625422": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?"
+					},
+					"german": {
+						"252086724": "Der Zufallsanzug",
+						"678625422": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?"
+					},
+					"spanish": {
+						"252086724": "El Traje Aleatorio",
+						"678625422": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?"
+					},
+					"russian": {
+						"252086724": "Случайный костюм",
+						"678625422": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": ["replace/raver"],
+			"blobsFolders": ["blobs/raver"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "The Random Suit",
+						"4079878924": "If you can't decide what colors to wear, why not let the computer decide?"
+					},
+					"french": {
+						"3362995256": "Le Costume Aléatoire",
+						"4079878924": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?"
+					},
+					"italian": {
+						"3362995256": "Il Vestito Casuale",
+						"4079878924": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?"
+					},
+					"german": {
+						"3362995256": "Der Zufallsanzug",
+						"4079878924": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?"
+					},
+					"spanish": {
+						"3362995256": "El Traje Aleatorio",
+						"4079878924": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?"
+					},
+					"russian": {
+						"3362995256": "Случайный костюм",
+						"4079878924": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": ["replace/luckyducky"],
+			"blobsFolders": ["blobs/luckyducky"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2681050670": "If you can't decide what colors to wear, why not let the computer decide?",
+						"2760943898": "The Random Suit"
+					},
+					"french": {
+						"2681050670": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?",
+						"2760943898": "Le Costume Aléatoire"
+					},
+					"italian": {
+						"2681050670": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?",
+						"2760943898": "Il Vestito Casuale"
+					},
+					"german": {
+						"2681050670": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?",
+						"2760943898": "Der Zufallsanzug"
+					},
+					"spanish": {
+						"2681050670": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?",
+						"2760943898": "El Traje Aleatorio"
+					},
+					"russian": {
+						"2681050670": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?",
+						"2760943898": "Случайный костюм"
+					}
+				}
+			}
+		}
+	]
 }

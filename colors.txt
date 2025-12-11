@@ -1,0 +1,45 @@
+suit colors
+black, navy, gray, brown, and tan
+ConstantColorRGB_02_Value for jacket and pants
+Diffuse_Color_01_Value for buttons
+
+black:
+    jacket #303236
+    pants: #303236
+    RGB_05: #8486A3
+    buttons: #434343
+
+navy:
+    jacket: #424A75
+    pants: #424A75
+    RGB_05: #8186E4
+    buttons: #3C396B
+
+gray:
+    jacket: #E1D9D6
+    pants: #E1D9D6
+    RGB_05: #C7C8D7
+    buttons: #D1D1D1
+
+brown:
+    jacket: #B5735D
+    pants: #B5735D
+    RGB_05: #DD9778
+    buttons: #B27343
+
+tan:
+    jacket: #FFCFB4
+    pants: #FFCFB4
+    RGB_05: #E3D0C3
+    buttons: #DFBA9E
+
+shirt colors
+white, cream, powder blue
+
+white: #FFFFFF
+
+cream: #E4CEAF
+
+blue: #98B6FE
+
+1d_01 1.0

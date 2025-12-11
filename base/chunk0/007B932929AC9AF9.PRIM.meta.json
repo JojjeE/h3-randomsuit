@@ -1,0 +1,30 @@
+{
+	"hash_value": "007B932929AC9AF9",
+	"hash_path": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_random_suit/geometry/agent47_random_suit.wl2?/shirt.weightedprim](bodypart).pc_weightedprim",
+	"hash_offset": 3975315572,
+	"hash_size": 2147773785,
+	"hash_resource_type": "PRIM",
+	"hash_reference_table_size": 40,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 490016,
+	"hash_size_in_memory": 4294967295,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": [
+		{
+			"hash": "[assembly:/_pro/characters/assets/hero/agent47/geometry/agent47_s2_suit.wl2?/shirt_btndwn3_tkd_cut.weightedprim](bodypart).pc_bonerig",
+			"flag": "1F"
+		},
+		{
+			"hash": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/random_shirt/materials/male_reg_dress_shirt_long_sleeve_01.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l01/random_shirt/materials/male_reg_dress_shirt_buttoned_up_01.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/characters/assets/_apparel/accessories/random_shirt/buttons/materials/buttons_03_shirt.mi].pc_mi",
+			"flag": "5F"
+		}
+	]
+}

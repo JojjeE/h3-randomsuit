@@ -1,0 +1,14 @@
+{
+	"643a0b16-555c-4aea-8dae-e415e34a74a4": {
+		"ID_": "643a0b16-555c-4aea-8dae-e415e34a74a4",
+		"CommonName": "CHAR_Global_Hero_Random_Suit_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_random_suit.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_RANDOM_SUIT_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_RANDOM_SUIT"
+	}
+}
