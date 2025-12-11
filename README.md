@@ -6,4 +6,4 @@ Can't decide what colors to wear? No need to choose anymore!
 
 ---
 
-`Jojje.RandomSuit` v1.0.0, by Jojje. This README was automatically generated from the mod's manifest.
+`Jojje.RandomSuit` v1.0.1, by Jojje. This README was automatically generated from the mod's manifest.

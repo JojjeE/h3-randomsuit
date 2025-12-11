@@ -5,7 +5,7 @@
 	"description": "Can't decide what colors to wear? No need to choose anymore!",
 	"authors": ["Jojje"],
 	"frameworkVersion": "2.33.33",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"contentFolders": ["base"],
 	"options": [
 		{
