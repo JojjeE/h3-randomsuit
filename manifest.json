@@ -5,7 +5,7 @@
 	"description": "Can't decide what colors to wear? No need to choose anymore!",
 	"authors": ["Jojje"],
 	"frameworkVersion": "2.33.33",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"contentFolders": ["base"],
 	"options": [
 		{
@@ -502,5 +502,6 @@
 				}
 			}
 		}
-	]
+	],
+	"updateCheck": "https://github.com/JojjeE/h3-randomsuit/releases/latest/download/updates.json"
 }
