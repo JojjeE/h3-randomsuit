@@ -1,0 +1,43 @@
+{
+	"factory": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l02/random_jacket/materials/male_reg_suit_jacket_01_closed_anisotropic.mi].pc_entitytype",
+	"blueprint": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l02/random_jacket/materials/male_reg_suit_jacket_01_closed_anisotropic.mi].pc_entityblueprint",
+	"material": "[assembly:/_pro/characters/assets/_apparel/male/volumes_l02/random_jacket/materials/male_reg_suit_jacket_01_closed_anisotropic.mi].pc_mi",
+	"overrides": {
+		"Texture2DNormal_01": {
+			"type": "texture",
+			"value": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_skunk/textures/agent47_skunk_jacket.texture?/normal_a.tex](asnormalmap).pc_tex"
+		},
+		"Texture2D_03": {
+			"type": "texture",
+			"value": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_skunk/textures/agent47_skunk_jacket.texture?/specular_a.tex](ascolormap).pc_tex"
+		},
+		"Texture2D_01": {
+			"type": "texture",
+			"value": "[assembly:/_pro/characters/assets/hero/agent47_outfits/agent47_skunk/textures/agent47_skunk_jacket.texture?/diffuse_a.tex](ascolormap).pc_tex"
+		},
+		"Texture2DCompoundNormal_01": {
+			"type": "texture",
+			"value": "[assembly:/_pro/environment/textures/constants/directional_a.texture?/normal_b.tex](ascompoundnormal).pc_tex"
+		},
+		"ConstantColorRGB_05_Value": {
+			"type": "color",
+			"value": "ffe8e8"
+		},
+		"ConstantColorRGB_02_Value": {
+			"type": "color",
+			"value": "4a4648"
+		},
+		"ConstantVector1D_06_Value": { "type": "float", "value": 1.0 },
+		"ConstantVector1D_10_Value": { "type": "float", "value": -1.0 },
+		"ConstantVector1D_04_Value": { "type": "float", "value": 0.0 },
+		"ConstantVector1D_05_Value": { "type": "float", "value": 0.7 },
+		"ConstantVector1D_09_Value": { "type": "float", "value": 1.2 },
+		"ConstantVector1D_03_Value": { "type": "float", "value": 1.0 },
+		"ConstantVector1D_01_Value": { "type": "float", "value": 0.5 },
+		"ConstantVector1D_07_Value": { "type": "float", "value": 0.0 },
+		"ConstantVector1D_08_Value": { "type": "float", "value": 0.1 },
+		"ConstantVector1D_15_Value": { "type": "float", "value": 0.0 },
+		"ConstantVector1D_16_Value": { "type": "float", "value": 0.0 },
+		"ShadowAlphaCutoffThreshold": { "type": "float", "value": 0.2 }
+	}
+}

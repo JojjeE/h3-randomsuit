@@ -1,0 +1,21 @@
+{
+	"id": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s2.sweetmenutext].pc_localized-textlist",
+	"lines": {
+		"CHAR_REWARD_HERO_ELUSIVEFLAMINGO_M_PRO130489_NAME_1AD1EC9B-1E96-4FAC-B0E6-8817A46DA9DB": {
+			"english": "The Random Suit",
+			"french": "Le Costume Aléatoire",
+			"german": "Der Zufallsanzug",
+			"italian": "Il Vestito Casuale",
+			"russian": "Случайный костюм",
+			"spanish": "El Traje Aleatorio"
+		},
+		"CHAR_REWARD_HERO_ELUSIVEFLAMINGO_M_PRO130489_DESCRIPTION_1AD1EC9B-1E96-4FAC-B0E6-8817A46DA9DB": {
+			"english": "If you can't decide what colors to wear, why not let the computer decide?",
+			"french": "Si vous n'arrivez pas à choisir les couleurs à porter, pourquoi ne pas laisser l'ordinateur décider à votre place?",
+			"german": "Wenn Sie sich nicht entscheiden können, welche Farben Sie tragen sollen, warum lassen Sie dann nicht den Computer entscheiden?",
+			"italian": "Se non riesci a decidere quali colori indossare, perché non lasciare che sia il computer a decidere?",
+			"russian": "Если вы не можете решить, какие цвета надеть, почему бы не позволить компьютеру принять решение?",
+			"spanish": "Si no puedes decidir qué colores ponerte, ¿por qué no dejas que lo decida el ordenador?"
+		}
+	}
+}

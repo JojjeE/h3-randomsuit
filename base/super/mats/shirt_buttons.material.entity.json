@@ -1,0 +1,27 @@
+{
+	"factory": "[assembly:/_pro/characters/assets/_apparel/accessories/random_shirt/buttons/materials/buttons_03_shirt.mi].pc_entitytype",
+	"blueprint": "[assembly:/_pro/characters/assets/_apparel/accessories/random_shirt/buttons/materials/buttons_03_shirt.mi].pc_entityblueprint",
+	"material": "[assembly:/_pro/characters/assets/_apparel/accessories/random_shirt/buttons/materials/buttons_03_shirt.mi].pc_mi",
+	"overrides": {
+		"Texture2DNormal_01": {
+			"type": "texture",
+			"value": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/normal_a.tex](asnormalmap).pc_tex"
+		},
+		"Texture2D_03": {
+			"type": "texture",
+			"value": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/specular_a.tex](ascolormap).pc_tex"
+		},
+		"Texture2D_01": {
+			"type": "texture",
+			"value": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/textures/buttons_01.texture?/diffuse_a.tex](ascolormap).pc_tex"
+		},
+		"Diffuse_Color_01_Value": { "type": "color", "value": "404040" },
+		"ConstantVector1D_06_Value": { "type": "float", "value": 1.0 },
+		"ConstantVector1D_04_Value": { "type": "float", "value": 0.0 },
+		"ConstantVector1D_05_Value": { "type": "float", "value": 1.0 },
+		"ConstantVector1D_03_Value": { "type": "float", "value": 0.5 },
+		"ConstantVector1D_01_Value": { "type": "float", "value": 0.5 },
+		"Diffuse_Saturation_01_Value": { "type": "float", "value": 1.0 },
+		"Diffuse_Hue_Shift_01_Value": { "type": "float", "value": 0.0 }
+	}
+}
