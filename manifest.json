@@ -5,7 +5,7 @@
 	"description": "Can't decide what colors to wear? No need to choose anymore!",
 	"authors": ["Jojje"],
 	"version": "1.0.1",
-	"frameworkVersion": "3.0.0-rc.1",
+	"frameworkVersion": "3.0.0-rc.6",
 	"url": "https://github.com/JojjeE/h3-randomsuit",
 	"conditions": { "supportedGames": ["h3"] },
 	"data": { "contentFolders": ["base"] },
