@@ -21,23 +21,59 @@
 		},
 		"ConstantColorRGB_05_Value": {
 			"type": "color",
-			"value": "ffe8e8"
+			"value": "#ffe8e8"
 		},
 		"ConstantColorRGB_02_Value": {
 			"type": "color",
-			"value": "4a4648"
+			"value": "#4a4648"
 		},
-		"ConstantVector1D_06_Value": { "type": "float", "value": 1.0 },
-		"ConstantVector1D_10_Value": { "type": "float", "value": -1.0 },
-		"ConstantVector1D_04_Value": { "type": "float", "value": 0.0 },
-		"ConstantVector1D_05_Value": { "type": "float", "value": 0.7 },
-		"ConstantVector1D_09_Value": { "type": "float", "value": 1.2 },
-		"ConstantVector1D_03_Value": { "type": "float", "value": 1.0 },
-		"ConstantVector1D_01_Value": { "type": "float", "value": 0.5 },
-		"ConstantVector1D_07_Value": { "type": "float", "value": 0.0 },
-		"ConstantVector1D_08_Value": { "type": "float", "value": 0.1 },
-		"ConstantVector1D_15_Value": { "type": "float", "value": 0.0 },
-		"ConstantVector1D_16_Value": { "type": "float", "value": 0.0 },
-		"ShadowAlphaCutoffThreshold": { "type": "float", "value": 0.2 }
+		"ConstantVector1D_06_Value": {
+			"type": "float",
+			"value": 1
+		},
+		"ConstantVector1D_10_Value": {
+			"type": "float",
+			"value": -1
+		},
+		"ConstantVector1D_04_Value": {
+			"type": "float",
+			"value": 0
+		},
+		"ConstantVector1D_05_Value": {
+			"type": "float",
+			"value": 0.7
+		},
+		"ConstantVector1D_09_Value": {
+			"type": "float",
+			"value": 1.2
+		},
+		"ConstantVector1D_03_Value": {
+			"type": "float",
+			"value": 1
+		},
+		"ConstantVector1D_01_Value": {
+			"type": "float",
+			"value": 0.5
+		},
+		"ConstantVector1D_07_Value": {
+			"type": "float",
+			"value": 0
+		},
+		"ConstantVector1D_08_Value": {
+			"type": "float",
+			"value": 0.1
+		},
+		"ConstantVector1D_15_Value": {
+			"type": "float",
+			"value": 0
+		},
+		"ConstantVector1D_16_Value": {
+			"type": "float",
+			"value": 0
+		},
+		"ShadowAlphaCutoffThreshold": {
+			"type": "float",
+			"value": 0.2
+		}
 	}
 }
